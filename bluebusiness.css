@@ -46,12 +46,23 @@ body, html {
     flex: 1;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
 .site-title {
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--primary-dark);
+    font-size: 36px;
+    font-weight: normal;
+    font-family: "Long Cang", "Hannotate TC", "Microsoft JhengHei", cursive;
     margin: 0;
-    letter-spacing: -0.5px;
+    letter-spacing: 2px;
+}
+
+.title-blue {
+    color: #0288D1;
+}
+
+.title-grey {
+    color: #555555;
+    margin-left: 5px;
 }
 
 #container-slogan {
