@@ -153,6 +153,7 @@ h2 {
     color: var(--primary);
     padding-left: 15px;
     border-left: 5px solid var(--primary);
+    margin: 5px 0 15px 0 !important;
 }
 
 h2:first-child {
