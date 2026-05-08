@@ -24,8 +24,19 @@
 <style>
     #content table td {
         padding: 1px 4px !important;
-        line-height: 1.0 !important;
+        line-height: 1.2 !important;
         border-bottom: 1px dashed #E0E0E0; /* 保持原有的虛線感 */
+	}
+	/* 讓表格最後一列不要有線，比較美觀 */
+    #content table tr:last-child td {
+        border-bottom: none !important;
+    }
+
+    /* 調整表格標題列的顏色，使其與內容區隔 */
+    #content table tr:first-child td {
+        background-color: #F5F5F5;
+        font-weight: bold;
+        border-bottom: 2px solid #808080 !important; /* 標題下方用深色線 */
     }
 </style>
 </head>
