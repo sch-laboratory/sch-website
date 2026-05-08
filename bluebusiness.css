@@ -122,7 +122,7 @@ ul#navigation {
     display: flex;
     gap: 40px;
     /* 這裡一定要加 !important，並確保數值大於之前的 15px */
-    margin: 1px 80px !important;
+    margin: 0.5px 80px !important;
 }
 
 #content {
