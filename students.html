@@ -22,23 +22,31 @@
 	<!-- InstanceBeginEditable name="head" -->
 	<!-- InstanceEndEditable -->
 <style>
-    /* 縮小行距並加入底線 */
+    /* 強制表格邊框合併，這是線條能顯示的關鍵 */
+    #content table {
+        border-collapse: collapse !important;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* 縮小行距並加入灰線 */
     #content table td {
-        padding: 4px 8px !important; /* 縮小上下間距 */
-        line-height: 1.2 !important;  /* 緊湊行高 */
-        border-bottom: 1px solid #D3D3D3 !important; /* 加上 1像素的實線灰線 */
+        padding: 5px 8px !important; /* 稍微留點空間才不會太擠 */
+        line-height: 1.2 !important;
+        border-bottom: 1px solid #CCCCCC !important; /* 灰線 */
     }
 
-    /* 讓表格最後一列不要有線，比較美觀 */
-    #content table tr:last-child td {
-        border-bottom: none !important;
-    }
-
-    /* 調整表格標題列的顏色，使其與內容區隔 */
+    /* 標題列樣式：加強區隔 */
     #content table tr:first-child td {
-        background-color: #F5F5F5;
+        background-color: #F9F9F9;
         font-weight: bold;
-        border-bottom: 2px solid #808080 !important; /* 標題下方用深色線 */
+        border-top: 1px solid #808080 !important; /* 表格頂部線 */
+        border-bottom: 2px solid #808080 !important; /* 標題下方粗線 */
+    }
+
+    /* 移除最後一行的底線，讓視覺更乾淨 */
+    #content table tr:last-child td {
+        border-bottom: 1px solid #808080 !important; /* 改為與底線一致 */
     }
 </style>
 </head>
