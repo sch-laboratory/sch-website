@@ -222,13 +222,21 @@ a:hover {
 
 table {
     width: 100% !important;
-    border-collapse: collapse;
-    margin: 20px 0;
+    border-collapse: collapse !important; /* 確保邊框合併成一條線 */
+    margin: 10px 0;
 }
 
 table td, table th {
-    padding: 12px 15px;
-    border-bottom: 1px solid #EEE;
+    padding: 8px 15px !important; /* 縮小單元格上下高度 */
+    border-bottom: 1px solid #EEEEEE !important; /* 確保每一行都有灰線 */
+    line-height: 1.4 !important;
+}
+
+/* 標題列加強感 */
+table tr:first-child td {
+    background-color: var(--primary-light);
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary) !important;
 }
 
 #container-footer {
