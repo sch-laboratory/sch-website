@@ -107,6 +107,7 @@ ul#navigation {
     overflow: hidden;
     position: relative;
     background-color: var(--primary-light);
+    margin-bottom: 0px !important;
 }
 
 #container-eyecatcher img {
@@ -118,13 +119,17 @@ ul#navigation {
 
 #container-content {
     flex: 1;
-    padding: 0px 0px 0px 0px;
     display: flex;
     gap: 40px;
+    padding-top: 5px !important;
 }
 
 #content {
     flex: 3;
+}
+
+#content h2:first-child {
+    margin-top: 0px !important;
 }
 
 #border {
