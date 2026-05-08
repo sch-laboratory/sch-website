@@ -151,9 +151,8 @@ h1 {
 h2 {
     font-size: 22px;
     color: var(--primary);
-    padding-left: 15px;
     border-left: 5px solid var(--primary);
-    margin: 5px 0 15px 0 !important;
+    margin: 5px 15px 15px 15px !important;
 }
 
 h2:first-child {
