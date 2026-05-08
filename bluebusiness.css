@@ -103,7 +103,7 @@ ul#navigation {
 }
 
 #container-eyecatcher {
-    height: 200px;
+    height: auto;
     overflow: hidden;
     position: relative;
     background-color: var(--primary-light);
@@ -111,9 +111,9 @@ ul#navigation {
 
 #container-eyecatcher img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.6;
+    height: auto;
+    display: block;
+    opacity: 0.8;
 }
 
 #container-content {
