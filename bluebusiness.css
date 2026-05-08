@@ -118,9 +118,8 @@ ul#navigation {
 }
 
 #container-content {
-flex: 1;
+    flex: 1;
     display: flex;
-    gap: 40px;
     /* 這裡一定要加 !important，並確保數值大於之前的 15px */
     padding: 0px 100px !important;
 }
