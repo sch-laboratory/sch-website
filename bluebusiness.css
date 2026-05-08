@@ -118,7 +118,7 @@ ul#navigation {
 
 #container-content {
     flex: 1;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 0px 0px 0px;
     display: flex;
     gap: 40px;
 }
