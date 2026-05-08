@@ -22,12 +22,14 @@
 	<!-- InstanceBeginEditable name="head" -->
 	<!-- InstanceEndEditable -->
 <style>
+    /* 縮小行距並加入底線 */
     #content table td {
-        padding: 1px 4px !important;
-        line-height: 1.2 !important;
-        border-bottom: 1px dashed #E0E0E0; /* 保持原有的虛線感 */
-	}
-	/* 讓表格最後一列不要有線，比較美觀 */
+        padding: 4px 8px !important; /* 縮小上下間距 */
+        line-height: 1.2 !important;  /* 緊湊行高 */
+        border-bottom: 1px solid #D3D3D3 !important; /* 加上 1像素的實線灰線 */
+    }
+
+    /* 讓表格最後一列不要有線，比較美觀 */
     #content table tr:last-child td {
         border-bottom: none !important;
     }
